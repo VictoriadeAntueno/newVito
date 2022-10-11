@@ -14,6 +14,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HttpClientModule} from '@angular/common/http';
 import { ReactiveFormsModule} from '@angular/forms';
 import { FormsModule } from '@angular/forms';
+import { HomeComponent } from './components/home/home.component';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +29,8 @@ import { FormsModule } from '@angular/forms';
     ProyComponent,
     SkillsComponent,
     FooterComponent,
+    HomeComponent,
+    LoginComponent,
         
   ],
   imports: [
