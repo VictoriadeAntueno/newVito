@@ -10,12 +10,11 @@ export class NavComponent implements OnInit {
 
   constructor(private router: Router) { }
 
+
   ngOnInit(): void {
   }
 
-  login (){
-    this.router.navigate(['/login'])
-  }
+    login (){
+      this.router.navigate(['/login'])
+    }
 }
-
-

@@ -1,10 +1,10 @@
-package com.newback.ap;
+package com.vito.newback;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ApApplicationTests {
+class NewbackApplicationTests {
 
 	@Test
 	void contextLoads() {
